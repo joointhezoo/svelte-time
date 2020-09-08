@@ -1,9 +1,11 @@
 <script>
 	export let name;
 	import Header from './components/Header.svelte';
+	import SideNav from './components/SideNav.svelte';
 </script>
+<Header />
 <main>
-    <Header />
+    <SideNav />
     <content>
         <h1>Hello {name}!</h1>
         <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
@@ -12,6 +14,8 @@
 
 <style>
 	main {
+	    display: flex;
+	    height: calc(100% - 60px);
 		margin: 0 auto;
 	}
     content {
