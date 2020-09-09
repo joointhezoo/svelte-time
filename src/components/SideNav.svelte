@@ -13,7 +13,7 @@
 	    margin: 0;
 	    padding: 24px 0;
 	    border-right: 1px solid #dadada;
-	    box-shadow: #dadada80 4px 0px 14px;
+	    box-shadow: #dadada80 4px 0 14px;
 	}
 	li {
 	    margin: 4px 24px;
