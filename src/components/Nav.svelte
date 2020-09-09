@@ -3,6 +3,7 @@
 
 	const links = [
     ['./routify', 'routify'],
+    ['./loading', 'Loading animation'],
   ]
 </script>
 
