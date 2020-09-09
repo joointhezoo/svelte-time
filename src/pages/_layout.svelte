@@ -2,9 +2,10 @@
 	import Header from '../components/Header.svelte';
 	import Nav from '../components/Nav.svelte';
 </script>
+
 <Header />
 <main>
-    <Nav />
+  <Nav />
 	<div class="content">
 		<slot />
 	</div>
@@ -12,8 +13,8 @@
 
 <style>
 	main {
-	    display: flex;
-	    height: calc(100% - 60px);
+    display: flex;
+    height: calc(100% - 60px);
 		margin: 0 auto;
 	}
 	.content {

@@ -4,10 +4,9 @@
 </div>
 
 <style>
-    div {
-        width: 100%;
-        text-align: center;
-    }
+  div {
+    text-align: center;
+  }
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
