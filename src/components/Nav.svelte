@@ -1,11 +1,9 @@
 <script>
 	import {isActive, url} from '@sveltech/routify'
 
-	const links =
-			[
-				['/', 'Home'],
-				['./about', 'About'],
-			]
+	const links = [
+    ['./routify', 'routify'],
+  ]
 </script>
 
 <ul>
@@ -18,18 +16,26 @@
 
 <style>
 	ul {
-	    box-sizing: border-box;
-	    height: 100%;
-	    min-width: 240px;
-	    margin: 0;
-	    padding: 24px 0;
-	    border-right: 1px solid #dadada;
-	    box-shadow: #dadada80 4px 0 14px;
+    box-sizing: border-box;
+    height: 100%;
+    min-width: 240px;
+    margin: 0;
+		padding: 0;
+    border-right: 1px solid #dadada;
+    box-shadow: #dadada80 4px 0 14px;
 	}
 	li {
-	    margin: 4px 24px;
+    padding: 12px 24px;
+		border-bottom: 1px solid #ddd;
+		list-style: none;
+	}
+	a {
+		font-weight: 300;
+		font-size: 16px;
+		color: #333;
 	}
 	.selected {
-		text-decoration: underline;
+		font-weight: 500;
+		letter-spacing: -0.38px;
 	}
 </style>
