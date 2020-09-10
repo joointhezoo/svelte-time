@@ -1,7 +1,7 @@
 <script>
-  let size = 60;
-  let color = "#ff3e00";
-  let unit = "px";
+	import Loading from '../components/Loading.svelte';
+	let size = 60;
+	let color = "#ff3e00";
 </script>
 
 <style>
@@ -25,29 +25,6 @@
     justify-content: center;
   }
 
-  .circle {
-    height: var(--size);
-    width: var(--size);
-    border: var(--borderWidth) solid var(--color);
-    border-top-color: transparent;
-    border-radius: var(--size);
-    animation: rotate 1s linear 0s infinite;
-  }
-
-  @keyframes rotate {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  .setting {
-    padding: 24px;
-    border-top: 1px solid #ddd;
-    min-height: 20%;
-  }
-
   label {
     display: inline-block;;
     width: 100px;
@@ -59,7 +36,7 @@
 <div class="content">
   <h1>try change size & color</h1>
   <div class="loading">
-    <div class="circle" style="--size: {size}{unit}; --color: {color}; --borderWidth: {size/8}{unit}"></div>
+      <Loading size={size} color={color}/>
   </div>
   <div class="setting">
     <label>size(px)</label>
