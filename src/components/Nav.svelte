@@ -4,6 +4,7 @@
 	const links = [
     ['./routify', 'routify'],
     ['./loading', 'Loading animation'],
+    ['./lifecycle', 'Lifecycle'],
   ]
 </script>
 

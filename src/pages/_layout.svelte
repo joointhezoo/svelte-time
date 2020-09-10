@@ -19,6 +19,7 @@
 	}
 	.content {
 		width: 100%;
+		margin: 0 24px;
 	}
 	@media (min-width: 640px) {
 		main {
