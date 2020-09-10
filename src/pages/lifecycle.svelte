@@ -33,7 +33,8 @@
     }
 
     kbd {
-        background: #e4e4e4;
+        background: #efefef;
+        text-transform: none;
     }
 
     h1 {
@@ -45,7 +46,7 @@
 
 </style>
 
-<h1>Lifecycle</h1>
+<h1>Lifecycle<br/>(<kbd>onMount</kbd>/<kbd>onDestroy</kbd>)</h1>
 <p><kbd>onMount</kbd>, which runs after the component is first rendered to the DOM.</p>
 <p>when you leave this page,<kbd>onDestroy</kbd> will destroy setTimeout function, which is used in <kbd>onMount</kbd></p>
 <p><i>Check the console log when you leave this page 🤗</i></p>
